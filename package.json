@@ -1,0 +1,38 @@
+{
+  "name": "@unionping/staticol",
+  "version": "0.1.0",
+  "description": "abstract class providing a static collecting and accessor for derived classes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \\\"Error: no example specified\\\" && exit 1",
+    "example-people": "npx ts-node example/people.ts",
+    "build": "tsc",
+    "publish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnionPing/staticol.git"
+  },
+  "keywords": [
+    "Typescript",
+    "node",
+    "class",
+    "static",
+    "collection",
+    "repo"
+  ],
+  "author": "Jan Thomas <thomas@unionping.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnionPing/staticol/issues"
+  },
+  "homepage": "https://github.com/UnionPing/staticol#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "typescript": "^4.5.5"
+  }
+}
